@@ -1,0 +1,30 @@
+{
+  "name": "stable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ganache": "ganache-cli",
+    "deploy": "truffle migrate",
+    "console": "truffle console --network development",
+    "build": "truffle compile --all",
+    "solium": "solium -d contracts/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpetraglia/simple-stablecoin-course.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpetraglia/simple-stablecoin-course/issues"
+  },
+  "homepage": "https://github.com/gpetraglia/simple-stablecoin-course#readme",
+  "devDependencies": {
+    "ganache-cli": "6.10.1",
+    "openzeppelin-solidity": "3.1.0",
+    "solium": "1.2.5",
+    "truffle": "5.1.41"
+  }
+}
